@@ -1,0 +1,7 @@
+const os = require('node:os')
+console.log('Nome da maquina: ', os.hostname())
+console.log('OS: ', os.platform())
+console.log('Versã do OS: ', os.version())
+console.log('Pasta temporaria ¨%temp%: ', os.tmpdir())
+console.log('Uso dos nucleos: ', os.cpus())
+console.log('Informações de rede: ', os.networkInterfaces())
